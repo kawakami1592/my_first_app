@@ -10,6 +10,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "初アプリ",
+      debugShowCheckedModeBanner: false,//デモバナーを非表示にする
+      theme: ThemeData.dark(),//ダークモード
       home: HomeScreen(),
     );
   }

@@ -66,6 +66,7 @@ class _HomeScreenState extends State<HomeScreen> {
       _textHeader = "こんにちは!$inputTextさん";
       _imageWidget =
           Image.asset("assets/images/hello.png"); //assetフォルダの中の画像を表示する
+          // Image.network(パス);
     });
   }
 }
